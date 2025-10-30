@@ -1,0 +1,15 @@
+whoosh==2.7.4           # Index/recherche BM25 en pur Python
+spacy==3.7.4            # Tokenisation/NER légers
+scikit-learn==1.4.2     # TF-IDF, SVM/LogReg, calibration
+pandas==2.2.2           # Données/tabulaires
+numpy==1.26.4
+tqdm==4.66.2            # Barres de progression
+rapidfuzz==3.7.0        # Matching rapide (citations, vérif)
+loguru==0.7.2           # Logging clair
+orjson==3.10.7          # JSON très rapide
+pydantic==2.7.1         # Schémas de sorties/validations
+python-dotenv==1.0.1    # Variables env (.env)
+fastapi==0.111.0        # API (optionnel pour démo)
+uvicorn==0.29.0
+streamlit==1.35.0       # Démo UI A/B
+matplotlib==3.8.4       # Graphs calibration (Brier/ECE)

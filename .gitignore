@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+index/
+outputs/
+*.pickle
+*.log
+.env
