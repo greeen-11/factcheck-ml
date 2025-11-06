@@ -1,0 +1,13 @@
+paths:
+  fever_dir: "data/fever"
+  wiki_pages: "data/fever/wiki-pages"
+  whoosh_index: "index/whoosh"
+  classic_model: "outputs/classic/model.pkl"
+
+retrieval:
+  k: 50      # Top-K BM25
+  m: 10      # Top-m rerank pour le pipeline
+
+classic:
+  c: 1.0
+  class_weight: "balanced"
