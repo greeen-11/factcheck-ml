@@ -64,5 +64,7 @@ def retrieve_candidates(claim: str, m: int = None):
 if __name__ == "__main__":
     test_claim = "Morocco hosted the 2010 FIFA World Cup."
     results = bm25_top_k(test_claim, k=5)
+    print("\n=== Retrieve candidates ===")
     for res in results:
-        print(f"[{res['score']:.4f}] {res['page']}::{res['sent_id']} - {res['text']}")
+        print(f"[{res['score']:.4f}] {res['page']}::{res['sent_id']} - {res['text']} ")
+        print("-------------------------")
